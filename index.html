@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.js"></script>
+  <script src="./lib/p5.play.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <script src="./lib/matter.js"></script>
+  <script src="./lib/matter.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>HTML,CSS AND JAVASCRIPT PRACTISE</title>
+  <!-- Sweet Alert c40 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="sweetalert.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="sweetalert.css" />
+  <!-- THIS LINK IMPORT THE SWEETALERT -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <div class="saini"> HELLO RAM RAM SAINI JI </div>
+
+  <script>
+
+    /*
+     -> THERE ARE FIVE TYPES OF LOOPS AND SYNTAX
+     1. FOR LOOP
+     for(let i = 0; i < any no.; i++){ block of code }
+     2. FOR IN LOOP
+     for(let key in object){ block of code }
+     3. FOR OF LOOP
+     for(let key of 'kuldeep'){ block of code }
+     4. WHILE LOOP
+     while(){ block of code }
+     5. DO WHILE LOOP
+     do{ code } while( i < number);
+    */
+
+    // NOW WE READ ABOUT ALL LOOPS OK
+    // PROGRAM TO ADD FIRST (N) NATURAL NUMBERS
+    /*
+    let sum = 0;
+    let n = prompt(" ENTER THE ANY NUMBER NOW ");
+    n = Number.parseInt(n);
+    // ('THIS IS A FOR LOOP OK')
+    for (let i = 0; i < n; i++) {
+      sum += (i + 1)
+      // console.log((i+1),'+')
+    }
+    console.log("sum of first" + n + "natural number is" + sum);
+
+
+    let obj = {
+      kuldeep: 100,
+      harry: 2,
+      neeraj: 98,
+      laxmi: 99,
+      kanaram: 80,
+      ritesh: 97
+    }
+
+    // ('THIS IS A FOR IN LOOP OK')
+    for (let key in obj) {
+      console.log("");
+      console.log(key + obj[key]);
+    }
+
+    // ('THIS IS A FOR OF LOOP OK')
+    for (let key of "kuldeep") {
+      console.log(key);
+    }
+
+    */
+    //  THIS IS A WHILE LOOP
+    // let n = prompt('enter good things');
+    // n = Number.parseInt(n);
+    // let i = 0;
+    // while (i < n) {
+    //   console.log(i);
+    //   i++;
+    // }
+
+    // THIS IS A DO WHILE LOOP
+    // DO WHILE LOOP ONE MORE EXECUTED 
+    let n = prompt('enter good things');
+    n = Number.parseInt(n);
+    let i = 10;
+    do {
+      console.log(i);
+      i++;
+    } while (i < n);
+
+  </script>
+
+</body>
+
+</html>
